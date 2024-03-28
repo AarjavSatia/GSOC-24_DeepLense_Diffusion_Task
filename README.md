@@ -1,6 +1,6 @@
 # GSOC-24 DeepLense Diffusion Task
 
-![Generated Lense samples](https://github.com/AarjavSatia/GSOC-24_DeepLense_Diffusion_Task/blob/main/diffusion_sample-1.png?raw=true)
+![Generated Lense samples](https://github.com/AarjavSatia/GSOC-24_DeepLense_Diffusion_Task/blob/main/diffusion_samples/diffusion_sample-1.png.png?raw=true)
 
 <p>1) Denoising Diffusion Probalistic Model (DDPM) /cite{} is used for all experimentations, the code takes from /cite{} and /cite{}.</p>
 <p>2) For the forward process Sigmoid Beta Scheduling is used to create beta timesteps as it gives better results on images greater than 64x64 /cite{https://arxiv.org/abs/2212.11972} </p>

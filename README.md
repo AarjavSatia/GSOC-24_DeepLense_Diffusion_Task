@@ -4,6 +4,7 @@
   <img src="https://github.com/AarjavSatia/GSOC-24_DeepLense_Diffusion_Task/blob/main/diffusion_samples/diffusion_sample-1.png"?raw=true" alt="Sublime's custom image"  width="400" height="400"/>
 </p>
 
+### Model Features and Results:
 <p>1) Denoising Diffusion Probalistic Model (DDPM) is used for all experimentations, the code takes from https://github.com/lucidrains/denoising-diffusion-pytorch and https://github.com/openai/improved-diffusion.</p>
 <p>2) For the forward process Sigmoid Beta Scheduling[1] is used to create beta timesteps as it gives better results on images greater than 64x64 </p>
 <p>3) DDIM sampling[2] method is used for sampling as it is decreases the time taken for sampling thus allowing for calculation of FID on large number of samples giving a more robust FID score.</p>

@@ -1,8 +1,7 @@
 # GSOC-24 DeepLense Diffusion Task
 
 <p align="center">
-  <img src="https://github.com/AarjavSatia/GSOC-24_DeepLense_Diffusion_Task/blob/main/diffusion_samples/diffusion_sample-1.png
-"?raw=true" alt="Sublime's custom image"/>
+  <img src="https://github.com/AarjavSatia/GSOC-24_DeepLense_Diffusion_Task/blob/main/diffusion_samples/diffusion_sample-1.png"?raw=true" alt="Sublime's custom image"/>
 </p>
 
 <p>1) Denoising Diffusion Probalistic Model (DDPM) is used for all experimentations, the code takes from https://github.com/lucidrains/denoising-diffusion-pytorch and https://github.com/openai/improved-diffusion.</p>

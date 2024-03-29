@@ -1,10 +1,9 @@
 # GSOC-24 DeepLense Diffusion Task
 
 <p align="center">
-  <img src="https://github.com/AarjavSatia/GSOC-24_DeepLense_Diffusion_Task/blob/main/diffusion_samples/diffusion_sample-1.png"?raw=true" alt="Lensing samples generated through diffusion."  width="400" height="400" />
-  Lensing samples generated through diffusion.
- 
+  <img src="https://github.com/AarjavSatia/GSOC-24_DeepLense_Diffusion_Task/blob/main/diffusion_samples/diffusion_sample-1.png"?raw=true" alt="Lensing samples generated through diffusion."  width="400" height="400" /> 
 </p>
+<p align="center"> Lensing samples generated through diffusion</p>
 
 ### Model Features and Results:
 <p>1) Denoising Diffusion Probalistic Model (DDPM) is used for all experimentations, the code takes from https://github.com/lucidrains/denoising-diffusion-pytorch and https://github.com/openai/improved-diffusion.</p>

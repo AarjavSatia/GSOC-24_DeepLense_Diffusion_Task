@@ -1,10 +1,9 @@
 # GSOC-24 DeepLense Diffusion Task
 
 <p align="center">
- <figure>
-  <figcaption>Lensing samples generated through diffusion process</figcaption>
-   <img src="https://github.com/AarjavSatia/GSOC-24_DeepLense_Diffusion_Task/blob/main/diffusion_samples/diffusion_sample-1.png"?raw=true" alt="Sublime's custom image"  width="400" height="400" />
-</figure>
+  <img src="https://github.com/AarjavSatia/GSOC-24_DeepLense_Diffusion_Task/blob/main/diffusion_samples/diffusion_sample-1.png"?raw=true" alt="Lensing samples generated through diffusion."  width="400" height="400" />
+  Lensing samples generated through diffusion.
+ 
 </p>
 
 ### Model Features and Results:

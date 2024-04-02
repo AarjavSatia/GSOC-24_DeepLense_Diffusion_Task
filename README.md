@@ -1,9 +1,20 @@
 # GSOC-24 DeepLense Diffusion Task
 
 <p align="center">
-  <img src="https://github.com/AarjavSatia/GSOC-24_DeepLense_Diffusion_Task/blob/main/diffusion_samples/diffusion_sample-1.png"?raw=true" alt="Lensing samples generated through diffusion."  width="400" height="400" /> 
+  <img src="https://github.com/AarjavSatia/GSOC-24_DeepLense_Diffusion_Task/blob/main/images/diffusion_sample-1.png"?raw=true" alt="Lensing samples generated through diffusion."  width="400" height="400" /> 
 </p>
 <p align="center"> Lensing samples generated through diffusion</p>
+
+### Dataset:
+
+<p>The dataset consists a total of 10,000 greyscale images stored as numpy arrays. The arrays are first converted to greyscale PIL images and then resized to 128x128 to make it a multiple of 8. (to account for proper U-Net downsampling and Upsampling) They are then converted to tensors normalized to a range [0,1]. </p>  
+<p>Few images from the dataset are shown below:</p>
+
+<p align="center">
+  <img src="https://github.com/AarjavSatia/GSOC-24_DeepLense_Diffusion_Task/blob/main/images/diffusion_data_description.png"?raw=true" alt="Example samples from the dataset"  /> 
+</p>
+
+
 
 ### Model Features and Results:
 <p>1) Denoising Diffusion Probalistic Model (DDPM) is used for all experimentations, the code takes from https://github.com/lucidrains/denoising-diffusion-pytorch and https://github.com/openai/improved-diffusion.</p>

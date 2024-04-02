@@ -22,7 +22,7 @@
 <p>3) DDIM sampling[2] method is used for sampling as it is decreases the time taken for sampling thus allowing for calculation of FID on large number of samples giving a more robust FID score.</p>
 <p>4) Exponential Moving Average is used for updating the weights which enables smoother training and makes sampling more stable. </p>
 <p>5) U-Net model takes from the original Open-AI architecture, but uses a scaled down version with fewer parameters to keep the model computationally light. Futher, Flash attention[3] is used in the attention layers to increase training speed.</p>
-<p>6) FID score is calculated by generating 2,000 samples at 250 sampling steps. Final FID value comes out to be <strong>12.3997</strong>.</p>
+<p>6) FID score is calculated by generating 200 samples at 1,000 sampling steps. Final FID value comes out to be <strong>7.819</strong>.</p>
 
 ### Further Modifications and Ideas:
 <p>1) Given a large dataset U-Net backbone can be replaced with other architectures like U-ViT, Karras U-Net and Transformers (DiT).</p>

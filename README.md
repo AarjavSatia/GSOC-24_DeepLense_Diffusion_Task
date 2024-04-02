@@ -25,7 +25,7 @@
 <p>6) FID score is calculated by generating 2,000 samples at 250 sampling steps. Final FID value comes out to be <strong>12.3997</strong>.</p>
 
 ### Further Modifications and Ideas:
-<p>1) Given a large dataset U-Net backbone can be replaced with a Transformer backbone to create a Diffusion Transformer architecture (DiT).</p>
+<p>1) Given a large dataset U-Net backbone can be replaced with other architectures like U-ViT, Karras U-Net and Transformers (DiT).</p>
 <p>2) Vector-Quantized Variational Auto-Encoder's (VQ-VAE) Encoder and Decoder can be used to compress the images to a Latent space and diffusion process can be applied on that latent space so as to reduce the computational complexity i.e Latent Diffusion Models (LDE).</p>
 <p>3) Given more information, U-Net can be conditioned on various properties of strong lensing images (like their substructure and various other parameters describing their structure) to generate accurate and specific lensing images.</p>
 

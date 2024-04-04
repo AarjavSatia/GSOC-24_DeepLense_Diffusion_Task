@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://github.com/AarjavSatia/GSOC-24_DeepLense_Diffusion_Task/blob/main/images/diffusion_sample-1.png"?raw=true" alt="Lensing samples generated through diffusion."  width="400" height="400" /> 
 </p>
-<p align="center">Fig. Lensing samples generated through diffusion <strong>FID : 3.5294</strong></p>
+<p align="center">Fig. Lensing samples generated through diffusion <strong>(FID : 3.5294)</strong></p>
 
 ### Dataset:
 
